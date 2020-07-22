@@ -1,2 +1,2 @@
 # web-to-do-app
-Using html, css, and javascript
+Using html, css, and javascript.
