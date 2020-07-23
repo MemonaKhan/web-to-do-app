@@ -45,12 +45,7 @@ function deleteItem(e) {
 }
 
 function editItem(e) {
-//   var val = prompt("Enter updated value",e.parentNode.firstChild.nodeValue)
-//   e.parentNode.firstChild.nodeValue = val;
-input.setAttribute("readonly","false");
+  var val = prompt("Enter updated value",e.parentNode.firstChild.value);
+  e.parentNode.firstChild.value = val;
 
 }
-
-// function deleteAll() {
-//     list.innerHTML = ""
-// }

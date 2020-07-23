@@ -43,7 +43,7 @@ body{
     border: none;
     height: 30px;
     border-radius: 25px;
-    width: 50%;
+    width: 350px;
     margin: 0.25rem;
     transition: .5s;
     font-size: 1.15rem;
@@ -85,4 +85,27 @@ body{
     margin-bottom: 1.5rem;
     margin-left: 25%;
     margin-right: 25%;
+}
+
+@media (max-width:680px){
+    .mainhead{
+        margin-top: 10px !important;
+    }
+    #to-do{
+        width: 200px;
+    }
+    .dlt{
+        font-size: 0.8rem;
+    }
+    .edit{
+        font-size: 0.8rem;
+
+    }
+    .item{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #itm-todo{
+        width: 150px;
+    }
 }
