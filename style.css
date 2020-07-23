@@ -1,23 +1,88 @@
 body{
-    /* background-image: url("imgs/background.gif");
+    background-image: url("imgs/background.gif");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     font-family: 'Open Sans',sans-serif;
     background-position: center center;
-    background-attachment: fixed; */
-    /* color: white; */
+    background-attachment: fixed;
+    color: white;
 }
 .mainhead{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Hind', sans-serif;
     color: white;
     font-size: 2em;
+    font-weight: bold;
 }
 .mainhead .heading{
-    color: cornflowerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hotpink;
     font-size: 2.5em;
 }
-.add{
+#add{
     /* color: white; */
-    font-size: 2em;
+    font-size: 1.5em;
+    /* border-radius: 100%; */
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: hotpink;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+#add:hover{
+	opacity: 0.7;
+}
+#to-do{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 25px;
+    width: 50%;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    margin-bottom: 2%;
+}
+#itm-todo{
+    background: none;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 1.4rem;
+	width: 245px;
+}
+.dlt{
+    background: none;
+	outline: none;
+	border: none;
+	color: yellow;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.edit{
+    background: none;
+	outline: none;
+	border: none;
+	color: cyan;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	margin: 0 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.item{
+    padding: 0.5rem;
+	border-bottom: 4px solid #fff;
+    margin-bottom: 1.5rem;
+    margin-left: 25%;
+    margin-right: 25%;
 }
